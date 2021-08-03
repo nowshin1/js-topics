@@ -1,0 +1,20 @@
+
+//this is how we use let.if we define any variable value by let it cant be change.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id="watermelon"></p>
+<script>
+    let x=10;
+    {
+        let x=2;
+    }
+    document.getElementById("watermelon").innerHTML=x;  //the output will be 10.
+</script>
+</body>
+</html>
