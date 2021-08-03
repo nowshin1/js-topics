@@ -1,0 +1,46 @@
+
+//The modulus operator (%) returns the division remainder.
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="mia"></p>
+<script>
+    let x=5;
+    let y=2;
+    let z=x%y;
+    document.getElementById("mia").innerHTML=z; //the output will be 1
+</script>
+</body>
+</html>
+
+
+
+
+//The decrement operator (--) decrements numbers
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="mia"></p>
+<script>
+    let x=5;
+    x--;//x=x-1;
+    //x++ means x=x+1
+    let z=x;
+    document.getElementById("mia").innerHTML=z; //the output will be 4;
+</script>
+</body>
+</html>
