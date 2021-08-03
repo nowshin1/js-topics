@@ -1,0 +1,113 @@
+//When adding a number and a string, JavaScript will treat the number as a string
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="link"></p>
+<script>
+    let x=10+"Alisha";
+    document.getElementById("link").innerHTML=x;  ///output will be 10Alisha
+
+</script>
+
+</body>
+</html>
+
+
+//JavaScript has dynamic types. This means that the same variable can be used to hold different data types:
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="link"></p>
+<script>
+    let x;
+    x=5;// Now x is a Number
+    x="john";// Now x is a String
+    document.getElementById("link").innerHTML=x;  ///output will be john
+
+</script>
+
+</body>
+</html>
+
+
+//Strings are written with quotes. You can use single or double quotes:
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="link"></p>
+<script>
+    let car1="prado";
+    car2='volvo';
+    document.getElementById("link").innerHTML=car1 +" <br>"+ car2;  ///output will be prado and volvo.
+
+</script>
+
+</body>
+</html>
+
+
+//javascript object...
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="link"></p>
+<script>
+var emp={
+    name:"rahul",
+    id:123,
+    salary:300,
+    age:32,
+
+};
+document.getElementById("link").innerHTML = emp.name+"  "+ emp.id+"  "+ emp.salary+" "+emp.age;
+
+</script>
+
+</body>
+</html>
+
+
+//Typeof operator returns the type of a variable or an expression...
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id ="link"></p>
+<script>
+document.getElementById("link").innerHTML = typeof "john"; //output will be string.
+</script>
+
+</body>
+</html>
+
