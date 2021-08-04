@@ -100,3 +100,113 @@
     
 </body>
 </html>
+
+
+
+//replace() method replaces a specified value with another value in a string
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fun()">Try it</button>
+    <p id="demo">pls visit Microsoft!</p>
+    <script> 
+
+     function fun(){
+
+        let text= document.getElementById("demo").innerHTML;
+         document.getElementById("demo").innerHTML=text.replace("Microsoft","w3School"); //Replace "Microsoft" with "W3Schools" in the paragraph
+     }
+     </script>
+    
+</body>
+</html>
+
+
+
+//A string is converted to upper case with toUpperCase()
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fun()">Try it</button>
+    <p id="demo">hello world!</p>
+    <script> 
+
+     function fun(){
+
+        let text= document.getElementById("demo").innerHTML;
+         document.getElementById("demo").innerHTML=text.toUpperCase();
+     }
+     </script>
+    
+</body>
+</html>
+
+
+
+
+
+//A string is converted to lower case with toLowerCase()
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fun()">Try it</button>
+    <p id="demo">MAYSHA RAHMAN!</p>
+    <script> 
+
+     function fun(){
+
+        let text= document.getElementById("demo").innerHTML;
+         document.getElementById("demo").innerHTML=text.toLowerCase();
+     }
+     </script>
+    
+</body>
+</html>
+
+
+
+
+//The concat() method joins two or more strings
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script> 
+
+let text1="Hello";
+let text2 = "Twinkle";
+let text3= text1.concat(" ",text2);
+document.getElementById("demo").innerHTML=text3;
+     </script>
+    
+</body>
+</html>
