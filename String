@@ -1,0 +1,56 @@
+//we can use quotes inside a string
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let answer1="its alright";
+        let answer2="He is 'jony'";
+        document.getElementById("demo").innerHTML=answer1+" <br>"+answer2;
+    </script>
+</body>
+</html>
+
+//this is how we print length of a string..
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var text="we should love our parents";
+   document.getElementById("demo").innerHTML=text.length; //output will be 26
+    </script>
+</body>
+</html>
+
+
+// The escape sequence \" inserts a double quote in a string.this is how we print double quotation of a string.. 
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var text="we should love \"our\" parents";
+   document.getElementById("demo").innerHTML=text; 
+    </script>
+</body>
+</html>
