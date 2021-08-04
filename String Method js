@@ -1,0 +1,102 @@
+//slice(start, end)..
+//slice method in string. slice() extracts a part of a string and returns the extracted part in a new string.
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var str="apple, Banana,orange";
+   document.getElementById("demo").innerHTML=str.slice(7,13); //output will be banana..
+     </script>
+    
+</body>
+</html>
+
+//Slice method
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var str="apple, Banana,orange";
+   document.getElementById("demo").innerHTML=str.slice(7); //output will be banana ,orange.
+     </script>
+    
+</body>
+</html>
+
+
+//slice value negative
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var str="apple,Banana,orange";
+   document.getElementById("demo").innerHTML=str.slice(-13); //output will be banana ,orange.
+     </script>
+    
+</body>
+</html>
+
+
+//substring(start, end)...The substring() method extract a part of a string and returns the extracted parts in a new string:
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var str="apple, Banana, orange";
+   document.getElementById("demo").innerHTML=str.substring(7,13); //output will be banana.
+     </script>
+    
+</body>
+</html>
+
+
+
+//substr(start, length)
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+   var str="Apple, Banana, Kiwi";
+   document.getElementById("demo").innerHTML=str.substr(7, 6); //output will be banana.
+     </script>
+    
+</body>
+</html>
