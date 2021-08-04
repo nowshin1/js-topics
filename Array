@@ -1,0 +1,46 @@
+//this is how we print an array element.
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script> 
+const name=[];
+name[0]="zara";
+name[1]="dipa";
+name[2]="sara";
+ 
+document.getElementById("demo").innerHTML=name;
+     </script>
+    
+</body>
+</html>
+
+
+//JavaScript array elements are accessed using numeric indexes (starting from 0
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script> 
+const name=["jimu","ishi","ishana"];
+name[0]="zara";
+ 
+document.getElementById("demo").innerHTML=name;  //output will be zara,ishi,ishana..
+     </script>
+    
+</body>
+</html>
